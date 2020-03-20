@@ -1,0 +1,343 @@
+/* Banner Section */
+
+section.banner-sec-wrap {
+  height: 510px;
+  position: relative;
+  background-image: url('../img/banner-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+section.banner-sec-wrap::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+/* Breadcurmb */
+nav.breadcrumb-wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+section.banner-sec-wrap .container {
+  position: relative;
+  height: 100%;
+}
+
+.banner-content h2 {
+  font-size: 52px;
+  font-weight: 500;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.banner-content h2::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100px;
+  height: 2px;
+  background-color: #FC2C27;
+  margin-left: -50px;
+}
+
+.banner-content p {
+  font-size: 18px;
+  line-height: 32px;
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: 400;
+}
+
+.banner-content {
+  padding-bottom: 60px;
+}
+
+ol.breadcrumb {
+  margin-bottom: 0;
+  text-align: center;
+  background-color: #F52426;
+  justify-content: center;
+  padding: 20px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+ol.breadcrumb li a,
+ol.breadcrumb li.active,
+ol.breadcrumb li {
+  font-size: 14px;
+  color: #f1f1f1;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #f1f1f1;
+  content: '\f101';
+  font-family: 'font awesome 5 free';
+  font-weight: 900;
+}
+
+
+/* Banner Section end */
+
+
+/* About us */
+
+.about-us-cotent h2 {
+  font-size: 46px;
+  margin-bottom: 16px;
+  color: #36383d;
+  font-weight: 400;
+}
+
+.about-us-cotent h2 span {
+  font-weight: 500;
+}
+
+.about-us-cotent h6 {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 0px;
+  color: #36383d;
+}
+
+.about-us-cotent h6:last-of-type {
+  margin-bottom: 25px;
+}
+
+.about-us-cotent p {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 10px;
+  color: #6f6f6f;
+}
+
+section.about-us-cotent-wrap {
+  padding: 100px 0;
+  padding-bottom: 90px;
+}
+
+.about-us-img {
+  position: relative;
+}
+
+.about-us-img button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: #FC2C27;
+  border: none;
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  line-height: 43px;
+  padding-left: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.about-us-img img {
+  width: 100%;
+}
+
+.about-us-img {
+  padding-top: 70px;
+}
+
+/* About us end */
+
+/* vehicles section */
+.vehicles-top-bar-wrap {
+  padding: 60px 0;
+  background-color: #F8F9FA;
+}
+
+.vehicles-top-left span {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 32px;
+  color: #808080;
+  display: block;
+}
+
+.vehicles-top-right button {
+  display: inline-block;
+  margin-right: 10px;
+  color: #FC2C27;
+  font-size: 20px;
+  min-width: 50px;
+  min-height: 50px;
+  background: #fff;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 16px 32px 0px rgba(217, 217, 217, 0.57);
+  box-shadow: 0px 16px 32px 0px rgba(217, 217, 217, 0.57);
+  border: none;
+}
+
+
+/* vehicles section end */
+
+
+
+
+
+/* Contact Us */
+section.contact-sec-wrapper {
+  background-color: #F2F2F2;
+  padding-bottom: 100px;
+  padding-top: 160px;
+}
+
+.contact-info-wrap {
+  background-color: #010101;
+  padding: 30px 37px;
+  position: relative;
+  z-index: 2;
+  margin-left: 50px;
+  border-radius: 3px;
+}
+
+.contact-form-title h2,
+.contact-info-title h2 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.contact-form-title h2 {
+  color: #1e1a1a
+}
+
+.contact-info-title p {
+  color: #fff;
+  font-size: 14px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+
+.single-contact p {
+  color: #fff;
+  line-height: 28px;
+  font-size: 15px;
+  width: calc(100% - 35px);
+  margin-bottom: 0;
+}
+
+.single-contact span {
+  width: 30px;
+  height: 35px;
+  font-size: 19px;
+  color: #fff;
+  padding-top: 3px;
+}
+
+.single-contact {
+  margin-bottom: 25px;
+}
+
+.contact-info-title {
+  margin-bottom: 30px;
+}
+
+.contact-form-title p {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.contact-form-title {
+  margin-bottom: 30px;
+}
+
+form.contact-form-wrapper {
+  padding: 80px 60px;
+  position: relative;
+  margin-top: -57px;
+  background-color: #fff;
+  padding-left: 160px;
+  margin-left: -100px;
+  z-index: 1;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+form.contact-form-wrapper .form-group input,
+form.contact-form-wrapper .form-group textarea {
+  font-size: 13px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+}
+
+form.contact-form-wrapper .form-group textarea {
+  min-height: 120px;
+}
+
+form.contact-form-wrapper .form-group button {
+  width: 180px;
+  display: inline-block;
+  height: 45px;
+  font-size: 14px;
+  border: none;
+  background-color: transparent;
+  color: #000;
+  margin-top: 20px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border: 1px solid #000;
+  transition: all ease 0.4s;
+  -webkit-transition: all ease 0.4s;
+  -moz-transition: all ease 0.4s;
+  -ms-transition: all ease 0.4s;
+  -o-transition: all ease 0.4s;
+}
+
+form.contact-form-wrapper .form-group button:hover {
+  background-color: #f92424;
+  color: #fff;
+  border-color: #F92424;
+}
+
+/* Contact Us end */
+
+
+
