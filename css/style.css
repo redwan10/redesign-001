@@ -175,6 +175,44 @@ section.about-us-cotent-wrap {
   margin-top: 70px;
 }
 
+.about-us-box {
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  padding: 60px 40px;
+  margin-top: 40px;
+}
+
+.about-us-box h4 {
+  font-size: 24px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 24px;
+  padding-bottom: 10px;
+}
+
+.about-us-box h4::before,
+.about-us-box h4::after {
+  content: '';
+  position: absolute;
+  background-color: #FC2C27;
+  left: 50%;
+  bottom: 0;
+  width: 60px;
+  height: 2px;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.about-us-box p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
 /* About us end */
 
 /* vehicles section */
