@@ -160,6 +160,10 @@ section.about-us-cotent-wrap {
   line-height: 43px;
   padding-left: 10px;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
 .about-us-img img {
@@ -167,7 +171,7 @@ section.about-us-cotent-wrap {
 }
 
 .about-us-img {
-  padding-top: 70px;
+  margin-top: 70px;
 }
 
 /* About us end */
@@ -626,3 +630,131 @@ form.contact-form-wrapper .form-group button:hover {
 }
 
 /* Contact Us end */
+
+
+
+/* ***Responsive media query*** */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1500px) {
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .accordion {
+    margin-bottom: 40px;
+  }
+
+  .vehicles-top-bar-wrap {
+    padding: 60px 0;
+    padding-bottom: 20px;
+  }
+
+  .banner-content {
+    width: 100%;
+  }
+
+  .about-us-img {
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+
+
+}
+
+/* Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+  .banner-content {
+    width: 100%;
+    padding: 0 15px;
+    padding-bottom: 50px;
+  }
+
+  section.banner-sec-wrap {
+    height: 340px;
+  }
+
+  .banner-content h2 {
+    font-size: 32px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .banner-content p {
+    font-size: 17px;
+    line-height: 29px;
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 400;
+  }
+
+  ol.breadcrumb {
+    padding: 15px 0;
+    width: 90%;
+  }
+
+  .vehicles-filter-area {
+    margin-bottom: 40px;
+  }
+
+  .vehicles-top-bar-wrap {
+    padding: 40px 0;
+    background-color: #F8F9FA;
+    padding-bottom: 30px;
+  }
+
+
+  .vehicles-card-img {
+    width: 100%;
+    position: relative;
+  }
+
+  .vehicle-card-content {
+    padding: 20px 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+
+  .vehicle-card-list.w-25 {
+    width: 35% !important;
+  }
+  .vehicle-card-list.w-75 {
+    padding-left: 30px !important;
+    width: 65% !important;
+  }
+
+  .vehicle-card-bottom a {
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    width: 100px;
+  }
+  .about-us-img {
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+
+  section.about-us-cotent-wrap {
+    padding: 60px 0;
+    padding-bottom: 30px;
+  }
+
+  .about-us-cotent h2 {
+    font-size: 38px;
+  }
+
+  .about-us-cotent h6 {
+    font-size: 19px;
+  }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {}
